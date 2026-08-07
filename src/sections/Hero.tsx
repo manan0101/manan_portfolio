@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, CircleDot } from "lucide-react";
 import { profile, stats } from "@/data/portfolio";
 
-const ROLES = ["Machine Learning Developer", "Python Developer", "AI Enthusiast"];
+const ROLES = ["Machine Learning Enthusiast", "Python Developer", "AI Enthusiast","Full-Stack Developer"];
 
 function useTypedRoles() {
   const [roleIndex, setRoleIndex] = useState(0);
